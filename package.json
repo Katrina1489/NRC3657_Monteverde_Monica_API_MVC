@@ -1,0 +1,17 @@
+{
+  "name": "royal-pets",
+  "version": "1.0.0",
+  "description": "Mockup de Veterinaria Royal Pets",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/output.css --minify",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "veterinaria",
+    "tailwind"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
